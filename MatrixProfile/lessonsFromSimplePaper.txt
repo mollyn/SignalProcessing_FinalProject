@@ -1,0 +1,24 @@
+These all have citations: 
+
+applications include:
+1) segmentation
+2) audito-to-score alignment
+3) cover song recognition
+4) query by singing/humming
+5) artist similarity identification
+6) visualization
+
+look at source 9
+
+The evaluation of different choices of feature sets is not
+the focus of this paper. For this reason, we fixed the use
+of chroma-based features in our experiments. This kind of
+features is prevalent in many music retrieval and data mining
+tasks. Specifically, we used the chroma energy normalized
+statistics (CENS) [14] to provide local tempo invariance. These
+features rely on applying a Hanning window on consecutive
+windows of “raw” chroma and aggregate features among the
+window to smooth the temporal chroma variation and reduce
+the dimensionality of the examples.
+
+look at source 14
